@@ -1,0 +1,57 @@
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+.tasks{
+    background-color: #fff;
+    padding: 30px;
+    min-height: 500px;
+    min-width: 500px;
+    border-radius: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px 0px #5a5959;
+   text-align: center;
+}
+.dropdown-content{
+    display: flex;
+    flex-direction: column;
+  text-align: center;
+ 
+}
+.moreAction-btn{
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #EF5350;
+    color:#fff;
+    border: none;
+}
+.dropdown-content a{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #455A64;
+}
+.state-wrap{
+    margin-left: 10px;
+}
+.profile-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.profile-img img{
+    padding:5px;
+    border:1px solid #a1a1a1 ;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    resize: contain;
+}
+.profile-wrap .name{
+    margin-top: 5px;
+}
+h5{
+    margin: 5px!important;
+    text-align: left;
+}
